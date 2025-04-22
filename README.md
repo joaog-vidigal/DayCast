@@ -43,7 +43,7 @@ A utilização do aplicativo se dá de maneira lúdica e simples, sendo resumida
 
 
 ## Desenvolvedores
-- <Nome>
+- [Caio Lopes Pimenta](https://github.com/Caio-Lopes16)
 - [João Gabriel B. Vidigal](https://github.com/joaog-vidigal)
 - <Nome>
 - <Nome>
