@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B131E"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/edtxtPesquisa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/pesquisa_nuvem" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="PESQUISAR O CLIMA"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnProcurar"
+        android:layout_width="320sp"
+        android:layout_height="75sp"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="#1C90FF"
+        android:onClick="pesquisar"
+        android:text="Procurar"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edtxtPesquisa"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/roundbg_editview"
+        android:backgroundTint="#232A3B"
+        android:ems="10"
+        android:fontFamily="@font/inter_medium"
+        android:hint="Digite o nome da cidade"
+        android:inputType="text"
+        android:paddingLeft="15sp"
+        android:textColor="#F2F2F2"
+        android:textColorHint="#BCBBBB"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnProcurar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
