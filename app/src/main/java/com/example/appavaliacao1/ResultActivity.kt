@@ -79,6 +79,7 @@ class ResultActivity : AppCompatActivity() {
 
                 val name = json.getString("name")
                 val txtTemperatura = findViewById<TextView>(R.id.txtTemperatura)
+                // Coloração do indicador de temperatura
                 when {
                     temp <= 0 -> txtTemperatura.setTextColor(Color.parseColor("#431AD9"))
                     temp <= 11 -> txtTemperatura.setTextColor(Color.parseColor("#1A53D9"))
