@@ -44,7 +44,9 @@ A utilização do aplicativo se dá de maneira lúdica e simples, sendo resumida
 
 ## Desenvolvedores
 - [Caio Lopes Pimenta](https://github.com/Caio-Lopes16)
+- Guilherme Shibata de Oliveira
 - [João Gabriel B. Vidigal](https://github.com/joaog-vidigal)
+- [Vitor Matheus Camargo da Rocha](https://github.com/VitorMCR)
 
 </br>
 
